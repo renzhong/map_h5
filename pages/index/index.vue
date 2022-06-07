@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<cover-view class="nameBox flexBox flexBetween flexHeightCenter">
-			<view style="font-size:20px;">核酸检测地图</view>
+			<!-- <view style="font-size:20px;">核酸检测地图</view> -->
 		</cover-view>
 		
 		<cover-view class="searchList" v-if=" data.showWebView == false && data.showMap == false ">
@@ -146,7 +146,7 @@
 								iconPath:'/static/icon_user.png',
 							}
 							that.data.covers.push( obj )
-							that.whichPhone();
+							// that.whichPhone();
 							resolve()
 						}
 					})
