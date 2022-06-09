@@ -15,10 +15,7 @@
 				<view class="leftBox">
 					<view class="title overflow_one" :style="{color:item.color}">{{item.name}}</view>
 					<view class="contents overflow_one">{{item.details}}</view>
-					<view class="telBox flexBox flexHeightCenter">
-						<uni-icons type="phone" color="rgba(0,0,0,0.6)"></uni-icons>
-						<view class="telNumber overflow_one">{{item.tel}}</view>
-					</view>
+					<view class="contents overflow_one">{{item.time}}</view>
 				</view>
 				<view class="rightBox" @click=" tapRightHere( item,index ) ">
 					<view class="flexBox flexCenter">
