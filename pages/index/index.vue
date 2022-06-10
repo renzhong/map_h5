@@ -15,7 +15,13 @@
 				<view class="leftBox">
 					<view class="title overflow_one" :style="{color:item.color}">{{item.name}}</view>
 					<view class="contents overflow_one">{{item.details}}</view>
+					<view class="contents overflow_one">{{item.details1}}</view>
 					<view class="contents overflow_one">{{item.time}}</view>
+					<view class="contents overflow_one">{{item.time1}}</view>
+					<view class="contents overflow_one">{{item.time2}}</view>
+					<view class="contents overflow_one">{{item.time3}}</view>
+					<view class="contents overflow_one">{{item.time4}}</view>
+					<view class="contents overflow_one">{{item.time5}}</view>
 				</view>
 				<view class="rightBox" @click=" tapRightHere( item,index ) ">
 					<view class="flexBox flexCenter">
